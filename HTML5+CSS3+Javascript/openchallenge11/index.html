@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=l, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="init()">
+    <h3>학점별로 학생 수를 입력하면 파이 차트로 비율 그리기</h3>
+    <div id="div"></div>
+    <hr>
+    <form action="">
+        A <input id="A" type="number" value="10">명
+        B <input id="B" type="number" value="10">명
+        C <input id="C" type="number" value="10">명
+        D <input id="D" type="number" value="10">명
+        F <input id="F" type="number" value="10">명
+        <button type="button" onclick="draw()">차트그리기</button>
+        <button type="button" onclick="erase()">차트지우기</button>
+    </form>
+    <canvas id="myCanvas" style="background-color: skyblue" width="600" height="600">
+    </canvas>
+    <script src="gradecanvas.js">
+        
+    </script>
+</body>
+</html>
