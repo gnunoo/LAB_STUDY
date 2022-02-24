@@ -1,0 +1,29 @@
+body {
+  background-image: url("snow.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.snow {
+  position: absolute;
+  top: -10px;
+  display: block;
+  width: 3px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  filter: blur(1px);
+  animation: snowfall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes snowfall {
+  from {
+    top: -10px;
+  }
+  to {
+    top: 99%;
+    opacity: 0;
+  }
+}
