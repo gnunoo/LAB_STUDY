@@ -1,0 +1,12 @@
+h3 {
+  text-shadow: 3px 3px 5px skyblue;
+}
+table {
+  border: px solid blue;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid blue;
+  width: 100px;
+  height: 50px;
+}
