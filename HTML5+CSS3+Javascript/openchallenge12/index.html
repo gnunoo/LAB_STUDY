@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>단어장 만들기</title>
+        <script src="world.js"></script>
+    </head>
+    <body>
+        <h3>나의 단어장 만들기</h3>
+        <hr>
+        <form>
+            <label>영어 <input id="eng" type="text" size="20"></label><br>
+            <label>한글 <input id="kor" type="text" size="20"></label><br>
+            <br>
+            <input type="button" value="단어 저장" onclick="store()">
+            <input type="button" value="영단어 검색" onclick="search()">
+            <input type="button" value="단어 삭제" onclick="remove()">
+            <input type="button" value="전체 보기" onclick="viewAll()">
+        </form>
+    </body>
+</html>
